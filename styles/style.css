@@ -23,6 +23,19 @@ p, li {
   color: #FFFFFF;
 }
 
+body,
+      html {
+        height: 100%;
+        margin: 0;
+      }
+      .bg {
+        background-image: url("https://wallpapercrafter.com/sizes/2560x1440/14420-starry-sky-stars-shine-night-trees-starry-night-4k.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
 body {
   width: 600px;
   margin: 0 auto;
