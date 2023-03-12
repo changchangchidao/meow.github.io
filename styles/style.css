@@ -3,13 +3,6 @@ html {
   font-family: 'Trebuchet MS', sans-serif;
 }
 
-div {
-    background-image: url('https://wallpapercrafter.com/sizes/2560x1440/14420-starry-sky-stars-shine-night-trees-starry-night-4k.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
-}
-
 h1 {
   font-size: 60px;
   text-align: center;
@@ -21,6 +14,13 @@ h2 {
   letter-spacing: 1px;
   color: #FFFFFF;
   text-align: center;
+}
+
+html {
+    background-image: url('https://wallpapercrafter.com/sizes/2560x1440/14420-starry-sky-stars-shine-night-trees-starry-night-4k.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 p, li {
