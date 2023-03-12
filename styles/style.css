@@ -42,11 +42,11 @@ p, li {
 }
 
 body {
-  width: 600px;
+  width: 700px;
   margin: 0 auto;
-  background-color: #090A29;
+  background-color: #080828;
   padding: 0 20px 20px 20px;
-  border: 5px #090A29;
+  border: 5px #080828;
 }
 
 h1 {
