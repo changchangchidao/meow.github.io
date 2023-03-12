@@ -10,8 +10,16 @@ h1 {
 
 h2 {
   font-size: 12px;
-  line-height: 3;
+  line-height: 1;
   letter-spacing: 1px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+h3 {
+  font size 12px;
+  line-height: 1;
+  letter spacing: 1px;
   color: #FFFFFF;
   text-align: center;
 }
