@@ -3,10 +3,6 @@ html {
   font-family: 'Trebuchet MS', sans-serif;
 }
 
-head {
-  background-image: url('IMG_5131.JPG');
-}
-
 h1 {
   font-size: 60px;
   text-align: center;
@@ -38,6 +34,7 @@ body {
   background-color: #8BABC9;
   padding: 0 20px 20px 20px;
   border: 5px solid white;
+  background-image: url('IMG_5131.JPG');
 }
 
 h1 {
