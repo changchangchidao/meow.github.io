@@ -17,7 +17,7 @@ h2 {
 }
 
 html { 
-  background: url(https://wallpapercrafter.com/sizes/2560x1440/14420-starry-sky-stars-shine-night-trees-starry-night-4k.jpg) no-repeat center center fixed; 
+  background: url("https://wallpapercrafter.com/sizes/2560x1440/14420-starry-sky-stars-shine-night-trees-starry-night-4k.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
