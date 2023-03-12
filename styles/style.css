@@ -13,6 +13,7 @@ h2 {
   line-height: 1;
   letter-spacing: 1px;
   color: #FB93AD;
+  margin-top: 20px;
 }
 
 h3 {
@@ -36,14 +37,13 @@ p, li {
   line-height: 2;
   letter-spacing: 1px;
   color: #FB93AD;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 body {
   width: 600px;
   margin: 0 auto;
-  margin-top: 20px;
-  margin-left: 40px;
-  margin-right: 40px;
   background-color: #070304;
   padding: 0 20px 20px 20px;
   border: 5px #FB93AD;
@@ -53,7 +53,7 @@ h1 {
   margin: 0;
   padding: 20px 0;
   color: #FB93AD;
-  text-shadow: 3px 3px 1px #fEB5C6;
+  text-shadow: 3px 3px 1px #000000;
 }
 
 img {
