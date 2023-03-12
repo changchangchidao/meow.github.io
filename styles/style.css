@@ -26,7 +26,7 @@ p, li {
 
 html {
   background-color: #1E3F66;
-  background-image: https://github.com/changchangchidao/01.github.io/blob/59f105434a8c4e1a1e4da2990375a8eedee7678f/images/IMG_5131.JPG('IMG_5131.JPG');
+  background-image: url('IMG_5131.JPG');
 }
 
 body {
