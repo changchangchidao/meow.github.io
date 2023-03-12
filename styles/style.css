@@ -3,10 +3,6 @@ html {
   font-family: 'Trebuchet MS', sans-serif;
 }
 
-p {
-  background-image: "IMG_5131.JPG";
-}
-
 h1 {
   font-size: 60px;
   text-align: center;
@@ -22,6 +18,7 @@ p, li {
 
 html {
   background-color: #1E3F66;
+  background-image: "IMG_5131.JPG";
 }
 
 body {
