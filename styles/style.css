@@ -10,9 +10,10 @@ h1 {
 
 h2 {
   font-size: 12px;
-  line-height: 1;
+  line-height: 3;
   letter-spacing: 1px;
   color: #FFFFFF;
+  text-align: center;
 }
 
 p, li {
