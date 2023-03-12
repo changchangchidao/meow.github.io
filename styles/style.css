@@ -12,7 +12,7 @@ h2 {
   font-size: 12px;
   line-height: 1;
   letter-spacing: 1px;
-  color: #D904A0;
+  color: #FB93AD;
   text-align: center;
 }
 
@@ -20,7 +20,7 @@ h3 {
   font-size 12px;
   line-height: 1;
   letter-spacing: 1px;
-  color: #D904A0;
+  color: #FB93AD;
   text-align: center;
 }
 
@@ -36,21 +36,21 @@ p, li {
   font-size: 16px;
   line-height: 2;
   letter-spacing: 1px;
-  color: #D904A0;
+  color: #FB93AD;
 }
 
 body {
   width: 600px;
   margin: 0 auto;
-  background-color: #000000;
+  background-color: #080405;
   padding: 0 20px 20px 20px;
-  border: 5px #D904A0;
+  border: 5px #FB93AD;
 }
 
 h1 {
   margin: 0;
   padding: 20px 0;
-  color: #D904A0;
+  color: #FB93AD;
   text-shadow: 3px 3px 1px gray;
 }
 
