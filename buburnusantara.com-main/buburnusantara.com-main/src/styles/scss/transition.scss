@@ -1,0 +1,37 @@
+.animated-element {
+  @apply pointer-events-none opacity-0 transition duration-500;
+
+  &.show {
+    @apply pointer-events-auto opacity-100;
+  }
+}
+
+@for $i from 1 through 4 {
+  .fade-delay-#{$i}00.show {
+    transition-delay: $i * 100ms;
+  }
+}
+
+.fade-bottom {
+  @apply translate-y-8;
+
+  &.show {
+    @apply translate-y-0;
+  }
+}
+
+.fade-left {
+  @apply -translate-x-8;
+
+  &.show {
+    @apply translate-x-0;
+  }
+}
+
+.fade-right {
+  @apply translate-x-8;
+
+  &.show {
+    @apply translate-x-0;
+  }
+}

@@ -1,0 +1,69 @@
+@use 'scss/menu';
+@use 'scss/modal';
+@use 'scss/navbar';
+@use 'scss/swiper';
+@use 'scss/hamburger';
+@use 'scss/checkmark';
+@use 'scss/transition';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  a,
+  img,
+  input,
+  button,
+  textarea {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply font-raleway text-main-primary;
+  }
+
+  dialog {
+    @apply pointer-events-none fixed inset-0 z-50 my-4 grid min-h-screen max-w-[calc((100%-6px)-2em)]
+    place-items-center bg-transparent p-0 opacity-0 transition sm:my-auto sm:min-h-0;
+
+    &[open] {
+      @apply pointer-events-auto opacity-100;
+    }
+  }
+}
+
+@layer components {
+  .hidden-section {
+    @apply scroll-mt-8 px-8 py-14 lg:scroll-mt-0 lg:px-16 lg:py-28;
+  }
+
+  .section-title {
+    @apply font-poppins text-3xl font-bold text-black sm:text-4xl md:text-5xl lg:text-6xl;
+  }
+
+  .section-subtitle {
+    @apply max-w-2xl justify-self-center text-lg font-light sm:text-xl;
+  }
+
+  .main-container {
+    @apply w-full max-w-6xl;
+  }
+
+  .viewable-image {
+    @apply cursor-pointer transition hover:brightness-75 hover:duration-200;
+  }
+
+  .custom-underline {
+    @apply underline decoration-transparent outline-none transition [text-decoration-thickness:1px] 
+           hover:decoration-inherit focus-visible:decoration-inherit;
+  }
+
+  .smooth-tab {
+    @apply #{'focus-visible:!transition'} outline-none focus-visible:ring-2 focus-visible:duration-200;
+  }
+}

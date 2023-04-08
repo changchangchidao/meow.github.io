@@ -1,0 +1,82 @@
+#hamburger-button {
+  display: grid;
+
+  @media screen and (min-width: 1024px) {
+    display: none;
+  }
+
+  .container {
+    position: relative;
+    width: 16px;
+    height: 14px;
+    overflow: hidden;
+
+    * {
+      position: absolute;
+      width: 16px;
+      height: 2px;
+      background-color: #213547;
+      transition: top 250ms, background-color 500ms, transform 250ms;
+    }
+
+    .top {
+      top: 0;
+      left: 0;
+      transform: translate(0);
+    }
+
+    .middle {
+      top: 6px;
+      left: 0;
+      transform: translate(8px);
+    }
+
+    .bottom {
+      top: 12px;
+      left: 0;
+      transform: translate(4px);
+    }
+  }
+
+  &.active:hover > * > *,
+  &.active:focus-visible > * > * {
+    background-color: #3c3c3cb3;
+    transition: top 250ms, background-color 250ms, transform 250ms;
+  }
+
+  &:hover .top,
+  &:focus-visible .top {
+    top: 0;
+    left: 0;
+    transform: translate(4px);
+  }
+
+  &:hover .middle,
+  &:focus-visible .middle {
+    top: 6px;
+    left: 0;
+    transform: translate(0);
+  }
+
+  &:hover .bottom,
+  &:focus-visible .bottom {
+    top: 12px;
+    left: 0;
+    transform: translate(8px);
+  }
+
+  &.active .top {
+    top: 6px;
+    transform: translate(0) rotate(225deg);
+  }
+
+  &.active .middle {
+    top: 6px;
+    transform: translate(16px);
+  }
+
+  &.active .bottom {
+    top: 6px;
+    transform: translate(0) rotate(135deg);
+  }
+}
