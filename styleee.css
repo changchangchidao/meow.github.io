@@ -44,7 +44,7 @@ html {
 .header {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
-    url("./Cafe3.jpeg") center/cover no-repeat;
+    url("https://static.dezeen.com/uploads/2021/11/noma-big-architecture-interiors-restaurant-copenhagen-denmark_dezeen_2364_hero50.jpg") center/cover no-repeat;
   position: relative;
   background-attachment: fixed;
 }
@@ -210,7 +210,7 @@ html {
 }
 
 .a1:hover {
-  color: #bd1220;
+  color: #015958;
 }
 
 .banner {
@@ -288,7 +288,7 @@ html {
   padding: 0.8rem 1.2rem;
   font-weight: bold;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  outline: 0.15rem solid #bd1220;
+  outline: 0.15rem solid #015958;
   /*outline-offset: 4px;*/
   cursor: pointer;
   margin-top: 2rem;
@@ -299,7 +299,7 @@ html {
 
 .main-btn:hover{
   color: white;
-  background-color: #bd1220;
+  background-color: #015958;
   opacity:1;
   
 }
@@ -320,7 +320,7 @@ html {
   animation-name: btnfill;
   animation-duration: 3s;
   animation-iteration-count: 1;
-  background-color: #bd1220;
+  background-color: #015958;
 }
 
 @keyframes btnfill {
@@ -377,7 +377,7 @@ html {
   text-transform: uppercase;
   letter-spacing: 1em;
   margin-bottom: 1.5rem;
-  color: #bd1220;
+  color: #015958;
   transition: 0.5s;
 }
 .skill-text {
@@ -388,25 +388,25 @@ html {
 }
 
 .skill1:hover {
-  background:#52080e;
+  background:#023535;
   opacity: 1.2;
   border-bottom-left-radius: 40px;
   border-top-right-radius: 40px;
 }
 .skill2:hover {
-  background: #52080e;
+  background: #023535;
   opacity: 1.2;
   border-bottom-left-radius: 40px;
   border-top-right-radius: 40px;
 }
 
 .skill1:hover .skill-title {
-  color: #8e4242;
+  color: #015958;
   font-size: 17px;
 }
 
 .skill2:hover .skill-title {
-  color: #8e4242;
+  color: #015958;
   font-size: 17px;
 }
 
@@ -515,7 +515,7 @@ html {
 
 .response-title{
   letter-spacing: 1.5px;
-  color: #bd1220;
+  color: #015958;
   font-family:SpartanLimport;
   font-size: 25px;
 }
@@ -568,10 +568,10 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #bd1220;
+  background-color: #015958;
   color: white;
   opacity: 1;
-  border: 1px solid #bd1220;
+  border: 1px solid #015958;
   border-radius: 6px;
   box-shadow: 0 14px 18px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
@@ -587,7 +587,7 @@ input[type="submit"]:hover {
 }
 
 .section-subtitle{
-  color: #bd1220;
+  color: #015958;
   font-family: SpartanLimport;
   font-size: 20px;
 }
@@ -603,7 +603,7 @@ input[type="submit"]:hover {
 .response-back{
   padding-left: 500px;
   padding-right: 100px;
-  background-color: #bd1220;
+  background-color: #015958;
 }
 
 .colorcover-link{
@@ -612,7 +612,7 @@ input[type="submit"]:hover {
 }
 
 .colorcover-link:hover{
-  color: #bd1220;
+  color: #015958;
 }
 
 .fontsettings{
@@ -630,14 +630,14 @@ label{
   height: 40vh;
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
-    url("./Cafe1.jpg") center/cover no-repeat;
+    url("https://assets.epicurious.com/photos/579f8ec93a12dd9d56024065/16:9/w_1280,c_limit/blueberry-cheesecake.jpg") center/cover no-repeat;
   position: relative;
   background-attachment: fixed;
 }
 
 .menu-title {
   font-family: SpartanLimport;
-  color:#bd1220;
+  color:#008F8C;
   margin-top: 2.5rem;
   line-height: 1.3;
   text-align: center;
@@ -649,7 +649,7 @@ label{
   padding-left: 2rem;
   padding-top: 2rem;
   font-family: SpartanLimport;
-  color:#bd1220 ;
+  color:#008F8C ;
 }
 
 .menu-describe{
@@ -738,7 +738,7 @@ label{
 
 .menu-text-title{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color:#bd1220;
+  color:#015958;
 }
 
 .menu-header-container{
@@ -822,7 +822,7 @@ label{
 
 .contact-title {
   font-family: SpartanLimport;
-  color:#bd1220;
+  color:#008F8C;
   margin-top: 2.5rem;
   line-height: 1.3;
   text-align: center;
@@ -959,7 +959,7 @@ fieldset{ margin: 0; padding: 0; }
 }
 
 .opening-text h3{
-  color: #801019;
+  color: #023535;
   font-family: SpartanLimport;
   font-size: 25px;
 }
@@ -1047,7 +1047,7 @@ img {vertical-align: middle;}
 }
 
 .slider-name1{
-  color: #bd1220;
+  color: #015958;
   font-family: RalewayELimport;
   float:right;
   padding-top: 15px;
@@ -1056,7 +1056,7 @@ img {vertical-align: middle;}
 }
 
 .slider-name2{
-  color: #bd1220;
+  color: #015958;
   font-family: RalewayELimport;
   float:left;
   padding-top: 15px;
@@ -1080,8 +1080,8 @@ img {vertical-align: middle;}
   margin-top:-5px;
   margin-right: 15px;
   border: 0;
-  border-top: 1px solid #bd1220;
-  border-color: #bd1220;
+  border-top: 1px solid #015958;
+  border-color: #015958;
   width: 200px;
   float: right;
 }
@@ -1090,8 +1090,8 @@ img {vertical-align: middle;}
   margin-top:-5px;
   margin-left: 15px;
   border: 0;
-  border-top: 1px solid #bd1220;
-  border-color: #bd1220;
+  border-top: 1px solid #015958;
+  border-color: #015958;
   width: 200px;
   float: left;
 }
@@ -1126,7 +1126,7 @@ img {vertical-align: middle;}
 }
 
 .active {
-  background-color: #bd1220;
+  background-color: #015958;
 }
 
 /* Fading animation */
